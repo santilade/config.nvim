@@ -175,18 +175,18 @@ return {
             padding = 1,
           },
         },
+        -- {
+        --   section = "header",
+        --   padding = 2,
+        -- },
         {
-          section = "header",
+          pane = 1,
+          align = "center",
+          section = "terminal",
+          cmd = "cmatrix -C blue -u 8",
+          height = 12,
           padding = 1,
         },
-        -- {
-        --   pane = 1,
-        --   align = "center",
-        --   section = "terminal",
-        --   cmd = "cmatrix -C blue -u 8",
-        --   height = 12,
-        --   padding = 1,
-        -- },
         -- {
         --   pane = 1,
         --   align = "center",
@@ -196,11 +196,11 @@ return {
         --   padding = 1,
         -- },
         {
-          indent = 9,
+          indent = 0,
           title = "Maintenance Actions",
         },
         {
-          indent = 9,
+          indent = 0,
           {
             icon = " ",
             key = "c",
